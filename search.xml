@@ -8,7 +8,7 @@
 <center>...更新中...</center>
 
 </blockquote>
-<h2 id=""><a href="#" class="headerlink" title=""></a><span id="more"></span></h2><h2 id="折腾-Markdown-之标题效果"><a href="#折腾-Markdown-之标题效果" class="headerlink" title="折腾 Markdown 之标题效果"></a>折腾 Markdown 之标题效果</h2><p>示例：</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><span id="more"></span></h2><h2 id="1-折腾-Markdown-之标题效果"><a href="#1-折腾-Markdown-之标题效果" class="headerlink" title="1 折腾 Markdown 之标题效果"></a>1 折腾 Markdown 之标题效果</h2><p>示例：</p>
 <h1 id="标题1号"><a href="#标题1号" class="headerlink" title="标题1号"></a>标题1号</h1><p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Heading level 1 </span><br></pre></td></tr></table></figure></p>
 <p>示例：</p>
 <h2 id="标题2号"><a href="#标题2号" class="headerlink" title="标题2号"></a>标题2号</h2><p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">## Heading level 2 </span><br></pre></td></tr></table></figure></p>
@@ -22,39 +22,39 @@
 <h6 id="标题6号"><a href="#标题6号" class="headerlink" title="标题6号"></a>标题6号</h6><p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">###### Heading level 6</span><br></pre></td></tr></table></figure></p>
 <p>注：#和文本中间留有一个空格，这是标准写法，不加空格的话部分解读器无法识别。</p>
 <hr>
-<h2 id="折腾-Markdown-之段落效果"><a href="#折腾-Markdown-之段落效果" class="headerlink" title="折腾 Markdown 之段落效果"></a>折腾 Markdown 之段落效果</h2><p>文本直接编辑就好，没有符号加成。  </p>
+<h2 id="2-折腾-Markdown-之段落效果"><a href="#2-折腾-Markdown-之段落效果" class="headerlink" title="2 折腾 Markdown 之段落效果"></a>2 折腾 Markdown 之段落效果</h2><p>文本直接编辑就好，没有符号加成。  </p>
 <p>I really like using Markdown.<br>I think I’ll use it to format all of my documents from now on.</p>
 <p>注：直接开始写内容，不要用空格和制表符缩进段落。编辑文段一个换行无效（虽然编辑中看上去到下一行了，但显示还是连起来的），写多个换行只体现一个换行效果。</p>
 <hr>
-<h2 id="折腾-Markdown-之换行效果"><a href="#折腾-Markdown-之换行效果" class="headerlink" title="折腾 Markdown 之换行效果"></a>折腾 Markdown 之换行效果</h2><p>上一节提到段落如何换行，这节展示规范写法，即：<br>在一行的末尾添加两个或多个空格（视作两个），然后按回车键换行。</p>
+<h2 id="3-折腾-Markdown-之换行效果"><a href="#3-折腾-Markdown-之换行效果" class="headerlink" title="3 折腾 Markdown 之换行效果"></a>3 折腾 Markdown 之换行效果</h2><p>上一节提到段落如何换行，这节展示规范写法，即：<br>在一行的末尾添加两个或多个空格（视作两个），然后按回车键换行。</p>
 <p>This is the first line.<br>And this is the second line.</p>
 <p>注：几乎每个 Markdown 应用程序都支持两个或多个空格进行换行，称为 <code>结尾空格（trailing whitespace)</code>的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。幸运的是，几乎每个 Markdown 应用程序都支持另一种换行方式：HTML 的<code>&lt;br&gt;</code>标签。</p>
 <p>为了兼容性，请在行尾添加“结尾空格”或 HTML 的<code>&lt;br&gt;</code>标签来实现换行。</p>
 <hr>
-<h2 id="折腾-Markdown-之强调效果"><a href="#折腾-Markdown-之强调效果" class="headerlink" title="折腾 Markdown 之强调效果"></a>折腾 Markdown 之强调效果</h2><h3 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h3><p>示例：I just love <strong>bold text</strong>.<br>语法：<code>I just love **bold text**.</code>  </p>
+<h2 id="4-折腾-Markdown-之强调效果"><a href="#4-折腾-Markdown-之强调效果" class="headerlink" title="4 折腾 Markdown 之强调效果"></a>4 折腾 Markdown 之强调效果</h2><h3 id="4-1-粗体"><a href="#4-1-粗体" class="headerlink" title="4.1 粗体"></a>4.1 粗体</h3><p>示例：I just love <strong>bold text</strong>.<br>语法：<code>I just love **bold text**.</code>  </p>
 <p>示例：I just love <strong>bold text</strong>.<br>语法：<code>I just love __bold text__.</code>  </p>
 <p>注：Markdown 应用程序在如何处理单词或短语中间的下划线上并不一致。为兼容考虑，在单词或短语中间部分加粗的话，请使用星号（asterisks）。</p>
-<h3 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h3><p>示例：Italicized text is the <em>cat’s meow</em>.<br>语法：<code>Italicized text is the *cat&#39;s meow*.</code>  </p>
+<h3 id="4-2-斜体"><a href="#4-2-斜体" class="headerlink" title="4.2 斜体"></a>4.2 斜体</h3><p>示例：Italicized text is the <em>cat’s meow</em>.<br>语法：<code>Italicized text is the *cat&#39;s meow*.</code>  </p>
 <p>示例：Italicized text is the <em>cat’s meow</em>.<br>语法：<code>Italicized text is the _cat&#39;s meow_.</code>  </p>
 <p>注：要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。  </p>
-<h3 id="粗体-斜体"><a href="#粗体-斜体" class="headerlink" title="粗体+斜体"></a>粗体+斜体</h3><p>示例：This text is <strong><em>really important</em></strong>.<br>语法：<code>This text is ***really important***.</code>  </p>
+<h3 id="4-3-粗体-斜体"><a href="#4-3-粗体-斜体" class="headerlink" title="4.3 粗体+斜体"></a>4.3 粗体+斜体</h3><p>示例：This text is <strong><em>really important</em></strong>.<br>语法：<code>This text is ***really important***.</code>  </p>
 <p>或：<code>___really___ / __*really*__ / **_really_** / ***really***</code>  </p>
 <p>注：Markdown 应用程序在处理单词或短语中间添加的下划线上并不一致。为了实现兼容性，请使用星号将单词或短语的中间部分加粗并以斜体显示，以示重要。</p>
 <hr>
-<h2 id="折腾-Markdown-之引用效果"><a href="#折腾-Markdown-之引用效果" class="headerlink" title="折腾 Markdown 之引用效果"></a>折腾 Markdown 之引用效果</h2><p>要创建块引用，请在段落前添加一个<code>&gt;</code>符号。</p>
+<h2 id="5-折腾-Markdown-之引用效果"><a href="#5-折腾-Markdown-之引用效果" class="headerlink" title="5 折腾 Markdown 之引用效果"></a>5 折腾 Markdown 之引用效果</h2><p>要创建块引用，请在段落前添加一个<code>&gt;</code>符号。</p>
 <p>示例：</p>
 <blockquote>
 <p>Dorothy followed her through many of the beautiful rooms in her castle.  </p>
 </blockquote>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br></pre></td></tr></table></figure></p>
-<h3 id="多个段落的块引用"><a href="#多个段落的块引用" class="headerlink" title="多个段落的块引用"></a>多个段落的块引用</h3><p>块引用可以包含多个段落。为段落之间的空白行添加一个<code>&gt;</code>符号。</p>
+<h3 id="5-1-多个段落的块引用"><a href="#5-1-多个段落的块引用" class="headerlink" title="5.1 多个段落的块引用"></a>5.1 多个段落的块引用</h3><p>块引用可以包含多个段落。为段落之间的空白行添加一个<code>&gt;</code>符号。</p>
 <p>示例：</p>
 <blockquote>
 <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
 <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
 </blockquote>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure></p>
-<h3 id="嵌套块引用"><a href="#嵌套块引用" class="headerlink" title="嵌套块引用"></a>嵌套块引用</h3><p>块引用可以嵌套。在要嵌套的段落前添加一个<code>&gt;&gt;</code>符号。  </p>
+<h3 id="5-2-嵌套块引用"><a href="#5-2-嵌套块引用" class="headerlink" title="5.2 嵌套块引用"></a>5.2 嵌套块引用</h3><p>块引用可以嵌套。在要嵌套的段落前添加一个<code>&gt;&gt;</code>符号。  </p>
 <p>示例：</p>
 <blockquote>
 <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
@@ -63,7 +63,7 @@
 </blockquote>
 </blockquote>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure></p>
-<h3 id="带有其他元素的块引用"><a href="#带有其他元素的块引用" class="headerlink" title="带有其他元素的块引用"></a>带有其他元素的块引用</h3><p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p>
+<h3 id="5-3-带有其他元素的块引用"><a href="#5-3-带有其他元素的块引用" class="headerlink" title="5.3 带有其他元素的块引用"></a>5.3 带有其他元素的块引用</h3><p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p>
 <p>示例：</p>
 <blockquote>
 <h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
@@ -75,8 +75,8 @@
 </blockquote>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure></p>
 <hr>
-<h2 id="折腾-Markdown-之列表效果"><a href="#折腾-Markdown-之列表效果" class="headerlink" title="折腾 Markdown 之列表效果"></a>折腾 Markdown 之列表效果</h2><p>可以将多个条目组织成有序或无序列表。</p>
-<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p>要创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点。数字不必按数学顺序排列，但是列表应当以数字 1 起始。</p>
+<h2 id="6-折腾-Markdown-之列表效果"><a href="#6-折腾-Markdown-之列表效果" class="headerlink" title="6 折腾 Markdown 之列表效果"></a>6 折腾 Markdown 之列表效果</h2><p>可以将多个条目组织成有序或无序列表。</p>
+<h3 id="6-1-有序列表"><a href="#6-1-有序列表" class="headerlink" title="6.1 有序列表"></a>6.1 有序列表</h3><p>要创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点。数字不必按数学顺序排列，但是列表应当以数字 1 起始。</p>
 <p>示例：</p>
 <ol>
 <li>First item</li>
@@ -96,7 +96,7 @@
 <li>Fourth item</li>
 </ol>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 区分列表级</span><br><span class="line">1. First item</span><br><span class="line">2. Second item</span><br><span class="line">3. Third item</span><br><span class="line">    1. Indented item</span><br><span class="line">    2. Indented item</span><br><span class="line">4. Fourth item</span><br></pre></td></tr></table></figure><br>注：缩进3个空格即可。CommonMark和其他一些轻量级标记语言允许使用括号<code>)</code>作为分隔符，例如，<code>1) First item</code>，但并非所有 Markdown 应用程序都支持这种分隔符，因此从兼容性角度来看，这不是一个很好的选择。为了兼容性，使用<code>1. First item</code>。</p>
-<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>要创建无序列表，请在每个列表项前面添加破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表。</p>
+<h3 id="6-2-无序列表"><a href="#6-2-无序列表" class="headerlink" title="6.2 无序列表"></a>6.2 无序列表</h3><p>要创建无序列表，请在每个列表项前面添加破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表。</p>
 <p>示例：</p>
 <ul>
 <li>First item</li>
@@ -117,8 +117,8 @@
 <li>Fourth item</li>
 </ul>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- First item</span><br><span class="line">- Second item</span><br><span class="line">- Third item</span><br><span class="line">    - Indented item</span><br><span class="line">    - Indented item</span><br><span class="line">- Fourth item</span><br></pre></td></tr></table></figure><br>注： Markdown 应用程序在如何处理同一列表中的不同分隔符方面并不一致。为了保证兼容性，请不要在同一个列表中混合和匹配分隔符，请选择一种分隔符并坚持使用。</p>
-<h3 id="在列表中嵌套其他元素"><a href="#在列表中嵌套其他元素" class="headerlink" title="在列表中嵌套其他元素"></a>在列表中嵌套其他元素</h3><p>要在保留列表连续性的同时在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符，如下例所示：</p>
-<h4 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h4><p>示例：</p>
+<h3 id="6-3-在列表中嵌套其他元素"><a href="#6-3-在列表中嵌套其他元素" class="headerlink" title="6.3 在列表中嵌套其他元素"></a>6.3 在列表中嵌套其他元素</h3><p>要在保留列表连续性的同时在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符，如下例所示：</p>
+<h4 id="6-3-1-段落"><a href="#6-3-1-段落" class="headerlink" title="6.3.1 段落"></a>6.3.1 段落</h4><p>示例：</p>
 <ul>
 <li>This is the first list item.</li>
 <li><p>Here’s the second list item.</p>
@@ -128,7 +128,7 @@
 </li>
 </ul>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   This is the first list item.</span><br><span class="line">*   Here&#x27;s the second list item.</span><br><span class="line"></span><br><span class="line">    I need to add another paragraph below the second list item.</span><br><span class="line"></span><br><span class="line">*   And here&#x27;s the third list item.</span><br></pre></td></tr></table></figure></p>
-<h4 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h4><p>示例：</p>
+<h4 id="6-3-2-引用块"><a href="#6-3-2-引用块" class="headerlink" title="6.3.2 引用块"></a>6.3.2 引用块</h4><p>示例：</p>
 <ul>
 <li>This is the first list item.</li>
 <li><p>Here’s the second list item.</p>
@@ -140,7 +140,7 @@
 </li>
 </ul>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   This is the first list item.</span><br><span class="line">*   Here&#x27;s the second list item.</span><br><span class="line"></span><br><span class="line">    &gt; A blockquote would look great below the second list item.</span><br><span class="line"></span><br><span class="line">*   And here&#x27;s the third list item.</span><br></pre></td></tr></table></figure></p>
-<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><p>代码块通常采用四个空格或一个制表符缩进。当它们被放在列表中时，请将它们缩进八个空格或两个制表符。<br>示例：</p>
+<h4 id="6-3-3-代码块"><a href="#6-3-3-代码块" class="headerlink" title="6.3.3 代码块"></a>6.3.3 代码块</h4><p>代码块通常采用四个空格或一个制表符缩进。当它们被放在列表中时，请将它们缩进八个空格或两个制表符。<br>示例：</p>
 <ol>
 <li>Open the file.</li>
 <li><p>Find the following code block on line 21:</p>
@@ -153,7 +153,7 @@
 </li>
 </ol>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.  Open the file.</span><br><span class="line">2.  Find the following code block on line 21:</span><br><span class="line"></span><br><span class="line">        &lt;html&gt;</span><br><span class="line">          &lt;head&gt;</span><br><span class="line">            &lt;title&gt;Test&lt;/title&gt;</span><br><span class="line">          &lt;/head&gt;</span><br><span class="line"></span><br><span class="line">3.  Update the title to match the name of your website.</span><br></pre></td></tr></table></figure></p>
-<h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><ol>
+<h4 id="6-3-4-图片"><a href="#6-3-4-图片" class="headerlink" title="6.3.4 图片"></a>6.3.4 图片</h4><ol>
 <li>Open the file containing the Linux mascot.</li>
 <li><p>Marvel at its beauty.</p>
 <p><img src="https://th.bing.com/th?id=ODL.b73bd5175a57713a5f4c311eb3e82d7b&amp;w=298&amp;h=198&amp;c=10&amp;rs=1&amp;qlt=99&amp;bgcl=fffffe&amp;r=0&amp;o=6&amp;pid=WrapstarImage" alt="一个简单的jpeg"></p>
@@ -162,7 +162,7 @@
 </li>
 </ol>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.  Open the file containing the Linux mascot.</span><br><span class="line">2.  Marvel at its beauty.</span><br><span class="line"></span><br><span class="line">    ![一个简单的jpeg](https://th.bing.com/th?id=ODL.b73bd5175a57713a5f4c311eb3e82d7b&amp;w=298&amp;h=198&amp;c=10&amp;rs=1&amp;qlt=99&amp;bgcl=fffffe&amp;r=0&amp;o=6&amp;pid=WrapstarImage)</span><br><span class="line"></span><br><span class="line">3.  Close the file.</span><br></pre></td></tr></table></figure></p>
-<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><p>有序列表中可以嵌套无序列表</p>
+<h4 id="6-3-5-列表"><a href="#6-3-5-列表" class="headerlink" title="6.3.5 列表"></a>6.3.5 列表</h4><p>有序列表中可以嵌套无序列表</p>
 <ol>
 <li>First item</li>
 <li>Second item</li>
@@ -190,8 +190,7 @@
 <center>...更新中...</center>
 
 </blockquote>
-<p>第一篇来源：<a href="https://github.com/openai/whisper/blob/main/model-card.md"> openai 的 Model Card: Whisper</a></p>
-<span id="more"></span>
+<h2 id="第一篇来源：-openai-的-Model-Card-Whisper"><a href="#第一篇来源：-openai-的-Model-Card-Whisper" class="headerlink" title="第一篇来源： openai 的 Model Card: Whisper"></a>第一篇来源：<a href="https://github.com/openai/whisper/blob/main/model-card.md"> openai 的 Model Card: Whisper</a></h2><span id="more"></span>
 <h1 id="Model-Card-Whisper"><a href="#Model-Card-Whisper" class="headerlink" title="Model Card: Whisper"></a>Model Card: Whisper</h1><p>This is the official codebase for running the automatic speech recognition (ASR) models (Whisper models) trained and released by OpenAI.</p>
 <p>Following <a href="https://arxiv.org/abs/1810.03993">Model Cards for Model Reporting (Mitchell et al.)</a>, we’re providing some information about the automatic speech recognition model. More information on how these models were trained and evaluated can be found <a href="https://arxiv.org/abs/2212.04356">in the paper</a>.</p>
 <h2 id="Model-Details"><a href="#Model-Details" class="headerlink" title="Model Details"></a>Model Details</h2><p>The Whisper models are trained for speech recognition and translation tasks, capable of transcribing speech audio into the text in the language it is spoken (ASR) as well as translated into English (speech translation). Researchers at OpenAI developed the models to study the robustness of speech processing systems trained under large-scale weak supervision. There are 9 models of different sizes and capabilities, summarized in the following table.</p>
@@ -244,8 +243,7 @@
 <h3 id="Model-type"><a href="#Model-type" class="headerlink" title="Model type"></a>Model type</h3><p>Sequence-to-sequence ASR (automatic speech recognition) and speech translation model</p>
 <h3 id="Paper-amp-samples"><a href="#Paper-amp-samples" class="headerlink" title="Paper &amp; samples"></a>Paper &amp; samples</h3><p><a href="https://arxiv.org/abs/2212.04356">Paper</a> / <a href="https://openai.com/blog/whisper">Blog</a></p>
 <hr>
-<p>第二篇来源：<a href="https://github.com/openai/openai-cookbook/blob/main/README.md"> openai 的 Cookbook</a></p>
-<p><a href="https://cookbook.openai.com" target="_blank"><br>  <picture><br>    <source media="(prefers-color-scheme: dark)" srcset="/images/use-markdown3/openai-cookbook-white.png" style="max-width: 100%; width: 400px; margin-bottom: 20px"><br>    <img alt="OpenAI Cookbook Logo" src="/images/use-markdown3/openai-cookbook.png" width="400px">
+<h2 id="第二篇来源：-openai-的-Cookbook"><a href="#第二篇来源：-openai-的-Cookbook" class="headerlink" title="第二篇来源： openai 的 Cookbook"></a>第二篇来源：<a href="https://github.com/openai/openai-cookbook/blob/main/README.md"> openai 的 Cookbook</a></h2><p><a href="https://cookbook.openai.com" target="_blank"><br>  <picture><br>    <source media="(prefers-color-scheme: dark)" srcset="/images/use-markdown3/openai-cookbook-white.png" style="max-width: 100%; width: 400px; margin-bottom: 20px"><br>    <img alt="OpenAI Cookbook Logo" src="/images/use-markdown3/openai-cookbook.png" width="400px">
   </picture>
 </a></p>
 <h3></h3>
@@ -267,13 +265,13 @@
   <entry>
     <title>折腾 Markdown (2)</title>
     <url>/%E6%8A%98%E8%85%BEMarkdown/use-markdown2/</url>
-    <content><![CDATA[<h1 id="折腾-Markdown-2"><a href="#折腾-Markdown-2" class="headerlink" title="折腾 Markdown (2)"></a>折腾 Markdown (2)</h1><h2 id="折腾-Markdown-之代码效果"><a href="#折腾-Markdown-之代码效果" class="headerlink" title="折腾 Markdown 之代码效果"></a>折腾 Markdown 之代码效果</h2><p>要将单词或短语表示为代码，请将其包裹在反引号<code>` </code>中。<br>At the command prompt, type <code>nano</code>.<br>另外，带代码样式的 ` 符号应该这样写：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`` ` ``</span><br></pre></td></tr></table></figure></p>
+    <content><![CDATA[<h1 id="折腾-Markdown-2"><a href="#折腾-Markdown-2" class="headerlink" title="折腾 Markdown (2)"></a>折腾 Markdown (2)</h1><h2 id="7-折腾-Markdown-之代码效果"><a href="#7-折腾-Markdown-之代码效果" class="headerlink" title="7 折腾 Markdown 之代码效果"></a>7 折腾 Markdown 之代码效果</h2><p>要将单词或短语表示为代码，请将其包裹在反引号<code>` </code>中。<br>At the command prompt, type <code>nano</code>.<br>另外，带代码样式的 ` 符号应该这样写：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`` ` ``</span><br></pre></td></tr></table></figure></p>
 <span id="more"></span>
-<h3 id="转义反引号"><a href="#转义反引号" class="headerlink" title="转义反引号"></a>转义反引号</h3><p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号<code>(``)</code>中。<br>另外，带代码样式的 <code>符号应该这样写：
+<h3 id="7-1-转义反引号"><a href="#7-1-转义反引号" class="headerlink" title="7.1 转义反引号"></a>7.1 转义反引号</h3><p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号<code>(``)</code>中。<br>另外，带代码样式的 <code>符号应该这样写：
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` `` ```</span><br></pre></td></tr></table></figure>
 示例：</code>Use <code>code</code> in your Markdown file.``</p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``Use `code` in your Markdown file.``</span><br></pre></td></tr></table></figure></p>
-<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。<br>注意编辑的时候代码块区域上下都要空行。</p>
+<h3 id="7-2-代码块"><a href="#7-2-代码块" class="headerlink" title="7.2 代码块"></a>7.2 代码块</h3><p>要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。<br>注意编辑的时候代码块区域上下都要空行。</p>
 <p>示例：</p>
 <pre><code>&lt;html&gt;
   &lt;head&gt;
@@ -282,36 +280,36 @@
 </code></pre><p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></p>
 <p>注：要创建不用缩进的代码块，可以使用“围栏式代码块”，将在扩展语法里面记录。</p>
 <hr>
-<h2 id="折腾-Markdown-之分割线效果"><a href="#折腾-Markdown-之分割线效果" class="headerlink" title="折腾 Markdown 之分割线效果"></a>折腾 Markdown 之分割线效果</h2><p>要创建分隔线，请在单独一行上使用三个或多个星号 (<code>***</code>)、破折号 (<code>---</code>) 或下划线 (<code>___</code>) ，并且不能包含其他内容。</p>
+<h2 id="8-折腾-Markdown-之分割线效果"><a href="#8-折腾-Markdown-之分割线效果" class="headerlink" title="8 折腾 Markdown 之分割线效果"></a>8 折腾 Markdown 之分割线效果</h2><p>要创建分隔线，请在单独一行上使用三个或多个星号 (<code>***</code>)、破折号 (<code>---</code>) 或下划线 (<code>___</code>) ，并且不能包含其他内容。</p>
 <p>示例：  </p>
 <hr>
 <hr>
 <hr>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">____</span><br><span class="line"></span><br></pre></td></tr></table></figure><br>注：为了兼容性，请在分隔线的前后均添加空白行（与代码块一样）。</p>
 <hr>
-<h2 id="折腾-Markdown-之链接效果"><a href="#折腾-Markdown-之链接效果" class="headerlink" title="折腾 Markdown 之链接效果"></a>折腾 Markdown 之链接效果</h2><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
+<h2 id="9-折腾-Markdown-之链接效果"><a href="#9-折腾-Markdown-之链接效果" class="headerlink" title="9 折腾 Markdown 之链接效果"></a>9 折腾 Markdown 之链接效果</h2><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
 <p>超链接Markdown语法代码：<code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code></p>
 <p>对应的HTML代码：<code>&lt;a href=&quot;超链接地址&quot; title=&quot;超链接title&quot;&gt;超链接显示名&lt;/a&gt;</code></p>
 <p>示例：<br>这是一个链接 <a href="https://markdown.com.cn">Markdown语法</a>。</p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn)。</span><br></pre></td></tr></table></figure></p>
-<h3 id="给链接增加Title"><a href="#给链接增加Title" class="headerlink" title="给链接增加Title"></a>给链接增加Title</h3><p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p>
+<h3 id="9-1-给链接增加Title"><a href="#9-1-给链接增加Title" class="headerlink" title="9.1 给链接增加Title"></a>9.1 给链接增加Title</h3><p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p>
 <p>示例：<br>这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。</p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</span><br></pre></td></tr></table></figure></p>
-<h3 id="网址和-Email-地址"><a href="#网址和-Email-地址" class="headerlink" title="网址和 Email 地址"></a>网址和 Email 地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
-<p>示例：<br><a href="https://markdown.com.cn">https://markdown.com.cn</a><br><a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#102;&#97;&#107;&#x65;&#x40;&#x65;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#x6d;">&#102;&#97;&#107;&#x65;&#x40;&#x65;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#x6d;</a></p>
+<h3 id="9-2-网址和-Email-地址"><a href="#9-2-网址和-Email-地址" class="headerlink" title="9.2 网址和 Email 地址"></a>9.2 网址和 Email 地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
+<p>示例：<br><a href="https://markdown.com.cn">https://markdown.com.cn</a><br><a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;">&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;</a></p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure></p>
-<h3 id="带格式化的链接"><a href="#带格式化的链接" class="headerlink" title="带格式化的链接"></a>带格式化的链接</h3><p>链接可以嵌套样式, 加粗强调可以在链接语法前后增加星号。<br>将链接表示为代码，可以在方括号中添加反引号。</p>
+<h3 id="9-3-带格式化的链接"><a href="#9-3-带格式化的链接" class="headerlink" title="9.3 带格式化的链接"></a>9.3 带格式化的链接</h3><p>链接可以嵌套样式, 加粗强调可以在链接语法前后增加星号。<br>将链接表示为代码，可以在方括号中添加反引号。</p>
 <p>示例：<br>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br>This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br>See the section on <a href="#code"><code>code</code></a>.</p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure></p>
-<h3 id="引用类型链接"><a href="#引用类型链接" class="headerlink" title="引用类型链接"></a>引用类型链接</h3><p>引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。参考样式链接分为两部分：与文本保持内联的部分以及存储在文件中其他位置的部分，以使文本易于阅读。</p>
-<h4 id="链接的第一部分格式"><a href="#链接的第一部分格式" class="headerlink" title="链接的第一部分格式"></a>链接的第一部分格式</h4><p>引用类型的链接的第一部分使用两组括号进行格式设置。第一组方括号包围应显示为链接的文本。第二组括号显示了一个标签，该标签用于指向您存储在文档其他位置的链接。</p>
+<h3 id="9-4-引用类型链接"><a href="#9-4-引用类型链接" class="headerlink" title="9.4 引用类型链接"></a>9.4 引用类型链接</h3><p>引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。参考样式链接分为两部分：与文本保持内联的部分以及存储在文件中其他位置的部分，以使文本易于阅读。</p>
+<h4 id="9-4-1-链接的第一部分格式"><a href="#9-4-1-链接的第一部分格式" class="headerlink" title="9.4.1 链接的第一部分格式"></a>9.4.1 链接的第一部分格式</h4><p>引用类型的链接的第一部分使用两组括号进行格式设置。第一组方括号包围应显示为链接的文本。第二组括号显示了一个标签，该标签用于指向您存储在文档其他位置的链接。</p>
 <p>可以在第一组和第二组括号之间包含一个空格，第二组括号中的标签不区分大小写，可以包含字母，数字，空格或标点符号。</p>
 <p>以下示例格式对于链接的第一部分效果相同：</p>
 <ul>
 <li><code>[hobbit-hole][1]</code></li>
 <li><code>[hobbit-hole] [1]</code></li>
 </ul>
-<h4 id="链接的第二部分格式"><a href="#链接的第二部分格式" class="headerlink" title="链接的第二部分格式"></a>链接的第二部分格式</h4><p>引用类型链接的第二部分使用以下属性设置格式：</p>
+<h4 id="9-4-2-链接的第二部分格式"><a href="#9-4-2-链接的第二部分格式" class="headerlink" title="9.4.2 链接的第二部分格式"></a>9.4.2 链接的第二部分格式</h4><p>引用类型链接的第二部分使用以下属性设置格式：</p>
 <ol>
 <li>放在括号中的标签，其后紧跟一个冒号和至少一个空格（例如<code>[label]:</code>）。</li>
 <li>链接的URL，可以选择将其括在尖括号中。</li>
@@ -334,30 +332,30 @@
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 其中第二行可以放置其他地方，增加了灵活性</span><br><span class="line">这是一个百度链接[Baidu][1]</span><br><span class="line">[1]: https://www.baidu.com/</span><br></pre></td></tr></table></figure></p>
 <p>注：不同的 Markdown 应用程序处理URL中间的空格方式不一样。为了兼容性，请尽量使用%20代替空格。</p>
 <hr>
-<h2 id="折腾-Markdown-之图片效果"><a href="#折腾-Markdown-之图片效果" class="headerlink" title="折腾 Markdown 之图片效果"></a>折腾 Markdown 之图片效果</h2><p>要添加图像，请使用感叹号 (<code>!</code>), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。</p>
+<h2 id="10-折腾-Markdown-之图片效果"><a href="#10-折腾-Markdown-之图片效果" class="headerlink" title="10 折腾 Markdown 之图片效果"></a>10 折腾 Markdown 之图片效果</h2><p>要添加图像，请使用感叹号 (<code>!</code>), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。</p>
 <p>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。</p>
 <p>对应的HTML代码：<code>&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;</code></p>
 <p>示例：<br><img src="https://th.bing.com/th?id=ODL.b73bd5175a57713a5f4c311eb3e82d7b" alt="这是图片" title="一种jpeg图片"></p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![这是图片](https://th.bing.com/th?id=ODL.b73bd5175a57713a5f4c311eb3e82d7b &quot;一种jpeg图片&quot;)</span><br></pre></td></tr></table></figure></p>
-<h3 id="链接图片"><a href="#链接图片" class="headerlink" title="链接图片"></a>链接图片</h3><p>给图片增加链接，将图像的 Markdown 括在方括号中，然后将链接添加在圆括号中。</p>
+<h3 id="10-1-链接图片"><a href="#10-1-链接图片" class="headerlink" title="10.1 链接图片"></a>10.1 链接图片</h3><p>给图片增加链接，将图像的 Markdown 括在方括号中，然后将链接添加在圆括号中。</p>
 <p>示例：<br><a href="https://markdown.com.cn"><img src="https://th.bing.com/th?id=ODL.b73bd5175a57713a5f4c311eb3e82d7b" alt="这是图片" title="一种jpeg图片"></a></p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[![这是图片](https://th.bing.com/th?id=ODL.b73bd5175a57713a5f4c311eb3e82d7b &quot;一种jpeg图片&quot;)](https://markdown.com.cn)</span><br></pre></td></tr></table></figure></p>
 <hr>
-<h2 id="折腾-Markdown-之转义字符效果"><a href="#折腾-Markdown-之转义字符效果" class="headerlink" title="折腾 Markdown 之转义字符效果"></a>折腾 Markdown 之转义字符效果</h2><p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。</p>
+<h2 id="11-折腾-Markdown-之转义字符效果"><a href="#11-折腾-Markdown-之转义字符效果" class="headerlink" title="11 折腾 Markdown 之转义字符效果"></a>11 折腾 Markdown 之转义字符效果</h2><p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。</p>
 <p>示例：<br>* Without the backslash, this would be a bullet in an unordered list.</p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\* Without the backslash, this would be a bullet in an unordered list.</span><br></pre></td></tr></table></figure></p>
-<h3 id="可做转义的字符"><a href="#可做转义的字符" class="headerlink" title="可做转义的字符"></a>可做转义的字符</h3><p>以下列出的字符都可以通过使用反斜杠字符从而达到转义目的。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\ ` * _ &#123;&#125; [] () # + - . ! |</span><br></pre></td></tr></table></figure></p>
-<h3 id="特殊字符自动转义"><a href="#特殊字符自动转义" class="headerlink" title="特殊字符自动转义"></a>特殊字符自动转义</h3><p>在 HTML 文件中，有两个字符需要特殊处理：<code>&lt;</code>和<code>&amp;</code>。<code>&lt;</code>符号用于起始标签，&amp; 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 <code>&amp;lt;</code> 和 <code>&amp;amp;</code>。</p>
+<h3 id="11-1-可做转义的字符"><a href="#11-1-可做转义的字符" class="headerlink" title="11.1 可做转义的字符"></a>11.1 可做转义的字符</h3><p>以下列出的字符都可以通过使用反斜杠字符从而达到转义目的。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\ ` * _ &#123;&#125; [] () # + - . ! |</span><br></pre></td></tr></table></figure></p>
+<h3 id="11-2-特殊字符自动转义"><a href="#11-2-特殊字符自动转义" class="headerlink" title="11.2 特殊字符自动转义"></a>11.2 特殊字符自动转义</h3><p>在 HTML 文件中，有两个字符需要特殊处理：<code>&lt;</code>和<code>&amp;</code>。<code>&lt;</code>符号用于起始标签，&amp; 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 <code>&amp;lt;</code> 和 <code>&amp;amp;</code>。</p>
 <p><code>&amp;</code>符号其实很容易让写作网页文件的人感到困扰，如果你要打「AT&amp;T」 ，你必须要写成「<code>AT&amp;amp;T</code>」 ，还得转换网址内的<code>&amp;</code>符号，如果你要链接到：<br><code>http://images.google.com/images?num=30&amp;q=larry+bird</code></p>
 <p>必须要把网址转成：<br><a href="http://images.google.com/images?num=30&amp;q=larry+bird">http://images.google.com/images?num=30&amp;q=larry+bird</a></p>
 <p>才能放到链接标签的<code>href</code>属性里。不用说也知道这很容易忘记，这也可能是 HTML 标准检查所检查到的错误中数量最多的。</p>
 <p>Markdown 允许你直接使用这些符号，它帮你自动转义字符。如果你使用<code>&amp;</code>符号的作为 HTML 实体的一部分，那么它不会被转换，而在其它情况下，它则会被转换成<code>&amp;amp;</code>。所以你如果要在文件中插入一个著作权的符号，你可以这样写：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&amp;copy;</span><br></pre></td></tr></table></figure><br>Markdown 将不会对这段文字做修改，但是如果你这样写：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;T</span><br></pre></td></tr></table></figure><br>Markdown 就会将它转为：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;amp;T</span><br></pre></td></tr></table></figure><br>类似的状况也会发生在<code>&lt;</code>符号上，因为 Markdown 支持 行内 HTML ，如果你使用<code>&lt;</code>符号作为 HTML 标签的分隔符，那 Markdown 也不会对它做任何转换，但是如果你是写：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &lt; 5</span><br></pre></td></tr></table></figure><br>Markdown 将会把它转换为：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &amp;lt; 5</span><br></pre></td></tr></table></figure><br>需要特别注意的是，在 Markdown 的块级元素和内联元素中， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都会被自动转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML。（在 HTML 语法中，你要手动把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体。）</p>
 <hr>
-<h2 id="折腾-Markdown-之内嵌-HTML-标签效果"><a href="#折腾-Markdown-之内嵌-HTML-标签效果" class="headerlink" title="折腾 Markdown 之内嵌 HTML 标签效果"></a>折腾 Markdown 之内嵌 HTML 标签效果</h2><p>对于 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 本身。如需使用 HTML，不需要额外标注这是 HTML 或是 Markdown，只需 HTML 标签添加到 Markdown 文本中即可。</p>
-<h3 id="行级內联标签"><a href="#行级內联标签" class="headerlink" title="行级內联标签"></a>行级內联标签</h3><p>HTML 的行级內联标签如 <code>&lt;span&gt;</code>、<code>&lt;cite&gt;</code>、<code>&lt;del&gt;</code> 不受限制，可以在 Markdown 的段落、列表或是标题里任意使用。依照个人习惯，甚至可以不用 Markdown 格式，而采用 HTML 标签来格式化。例如：如果比较喜欢 HTML 的 <code>&lt;a&gt;</code> 或 <code>&lt;img&gt;</code> 标签，可以直接使用这些标签，而不用 Markdown 提供的链接或是图片语法。当你需要更改元素的属性时（例如为文本指定颜色或更改图像的宽度），使用 HTML 标签更方便些。</p>
+<h2 id="12-折腾-Markdown-之内嵌-HTML-标签效果"><a href="#12-折腾-Markdown-之内嵌-HTML-标签效果" class="headerlink" title="12 折腾 Markdown 之内嵌 HTML 标签效果"></a>12 折腾 Markdown 之内嵌 HTML 标签效果</h2><p>对于 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 本身。如需使用 HTML，不需要额外标注这是 HTML 或是 Markdown，只需 HTML 标签添加到 Markdown 文本中即可。</p>
+<h3 id="12-1-行级內联标签"><a href="#12-1-行级內联标签" class="headerlink" title="12.1 行级內联标签"></a>12.1 行级內联标签</h3><p>HTML 的行级內联标签如 <code>&lt;span&gt;</code>、<code>&lt;cite&gt;</code>、<code>&lt;del&gt;</code> 不受限制，可以在 Markdown 的段落、列表或是标题里任意使用。依照个人习惯，甚至可以不用 Markdown 格式，而采用 HTML 标签来格式化。例如：如果比较喜欢 HTML 的 <code>&lt;a&gt;</code> 或 <code>&lt;img&gt;</code> 标签，可以直接使用这些标签，而不用 Markdown 提供的链接或是图片语法。当你需要更改元素的属性时（例如为文本指定颜色或更改图像的宽度），使用 HTML 标签更方便些。</p>
 <p>HTML 行级內联标签和区块标签不同，在內联标签的范围内， Markdown 的语法是可以解析的。<br>示例：<br>This <strong>word</strong> is bold. This <em>word</em> is italic.</p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This **word** is bold. This &lt;em&gt;word&lt;/em&gt; is italic.</span><br></pre></td></tr></table></figure></p>
-<h3 id="区块标签"><a href="#区块标签" class="headerlink" title="区块标签"></a>区块标签</h3><p>区块元素──比如 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code>、<code>&lt;p&gt;</code>等标签，必须在前后加上空行，以便于内容区分。而且这些元素的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 会自动识别这区块元素，避免在区块标签前后加上没有必要的 <code>&lt;p&gt;</code> 标签。</p>
+<h3 id="12-2-区块标签"><a href="#12-2-区块标签" class="headerlink" title="12.2 区块标签"></a>12.2 区块标签</h3><p>区块元素──比如 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code>、<code>&lt;p&gt;</code>等标签，必须在前后加上空行，以便于内容区分。而且这些元素的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 会自动识别这区块元素，避免在区块标签前后加上没有必要的 <code>&lt;p&gt;</code> 标签。</p>
 <p>例如，在 Markdown 文件里加上一段 HTML 表格。</p>
 <p>示例：  </p>
 <p>This is a regular paragraph.</p>
@@ -390,18 +388,18 @@
 <p>这篇文章就不再赘述如何关联<code>Hexo</code> 与 <code>Github</code> ，如有需要请看这篇博客：<br><a href="https://www.cnblogs.com/chenlove/p/15058170.html">【保姆级】利用Github搭建自己的个人博客，看完就会
 </a><br>我是按照这个来做的，亲测可行。  </p>
 <p>另附上<code>Hexo</code>的中文官网：<a href="https://hexo.io/zh-cn/">Hexo</a></p>
-<h2 id="常用的命令"><a href="#常用的命令" class="headerlink" title="常用的命令"></a>常用的命令</h2><p>首先新建一个专用于管理博客的文件夹，cmd进入该文件夹下。</p>
-<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>初始化命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><br>该命令相当于执行了以下几步：</p>
+<h2 id="1-常用的命令"><a href="#1-常用的命令" class="headerlink" title="1 常用的命令"></a>1 常用的命令</h2><p>首先新建一个专用于管理博客的文件夹，cmd进入该文件夹下。</p>
+<h3 id="1-1-初始化"><a href="#1-1-初始化" class="headerlink" title="1.1 初始化"></a>1.1 初始化</h3><p>初始化命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><br>该命令相当于执行了以下几步：</p>
 <ol>
 <li>Git clone <code>hexo-starter</code> 和 <code>hexo-theme-landscape</code> 主题到当前目录或指定目录。  </li>
 <li>使用 <code>Yarn 1</code>、<code>pnpm</code> 或 <code>npm</code> 包管理器下载依赖（如有已安装多个，则列在前面的优先）。 npm 默认随 <code>Node.js</code> 安装。</li>
 </ol>
-<h3 id="新建"><a href="#新建" class="headerlink" title="新建"></a>新建</h3><p>新建命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &lt;title&gt;</span><br></pre></td></tr></table></figure><br>该命令用于新建一篇文章，<code>&lt;title&gt;</code>部分填写的将会在<code>source/_post</code>目录下面生成一个同名文件夹，里面的<code>index.md</code>就是 Markdown 文档，编辑好一篇 Markdown 文档就编辑好了一篇文章。</p>
+<h3 id="1-2-新建"><a href="#1-2-新建" class="headerlink" title="1.2 新建"></a>1.2 新建</h3><p>新建命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &lt;title&gt;</span><br></pre></td></tr></table></figure><br>该命令用于新建一篇文章，<code>&lt;title&gt;</code>部分填写的将会在<code>source/_post</code>目录下面生成一个同名文件夹，里面的<code>index.md</code>就是 Markdown 文档，编辑好一篇 Markdown 文档就编辑好了一篇文章。</p>
 <p>如果想更一个系列归档，也可以期望将这些 Markdown 文档放在一个文件夹里。例如本篇文章是这样新建的：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page --path use-hexo/use-hexo1 &quot;use-hexo(1)&quot;</span><br></pre></td></tr></table></figure></p>
-<h3 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h3><p>生成命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure><br>该命令用于将编辑好的文件统一生成静态文件，会在根目录下产生一个<code>public</code>文件夹。如 Markdown 文件的修改在本地支持热更新，但配置文件需要重新生成之后才能使用。</p>
-<h3 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h3><p>启动命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><br>该命令用于启动本地服务器。默认情况下，访问网址为： <code>http://localhost:4000/</code>。启动之后可以在本地预览博客，如果修改了 Markdown 文档，浏览器刷新就可以显示更改后的状态，也就是热更新。</p>
-<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>部署命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><br>该命令用于部署你的网站。如果已经和<code>Github</code>关联，输该命令会自动推送到仓库中，也就可以在公网上被访问到了。</p>
-<h3 id="清除缓存"><a href="#清除缓存" class="headerlink" title="清除缓存"></a>清除缓存</h3><p>清理命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><br>该命令用于清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</p>
+<h3 id="1-3-生成"><a href="#1-3-生成" class="headerlink" title="1.3 生成"></a>1.3 生成</h3><p>生成命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure><br>该命令用于将编辑好的文件统一生成静态文件，会在根目录下产生一个<code>public</code>文件夹。如 Markdown 文件的修改在本地支持热更新，但配置文件需要重新生成之后才能使用。</p>
+<h3 id="1-4-启动服务器"><a href="#1-4-启动服务器" class="headerlink" title="1.4 启动服务器"></a>1.4 启动服务器</h3><p>启动命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><br>该命令用于启动本地服务器。默认情况下，访问网址为： <code>http://localhost:4000/</code>。启动之后可以在本地预览博客，如果修改了 Markdown 文档，浏览器刷新就可以显示更改后的状态，也就是热更新。</p>
+<h3 id="1-5-部署"><a href="#1-5-部署" class="headerlink" title="1.5 部署"></a>1.5 部署</h3><p>部署命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><br>该命令用于部署你的网站。如果已经和<code>Github</code>关联，输该命令会自动推送到仓库中，也就可以在公网上被访问到了。</p>
+<h3 id="1-6-清除缓存"><a href="#1-6-清除缓存" class="headerlink" title="1.6 清除缓存"></a>1.6 清除缓存</h3><p>清理命令：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><br>该命令用于清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</p>
 ]]></content>
       <categories>
         <category>博客相关</category>
