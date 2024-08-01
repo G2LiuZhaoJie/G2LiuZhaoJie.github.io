@@ -267,9 +267,7 @@
     <url>/%E6%8A%98%E8%85%BEMarkdown/use-markdown2/</url>
     <content><![CDATA[<h1 id="折腾-Markdown-2"><a href="#折腾-Markdown-2" class="headerlink" title="折腾 Markdown (2)"></a>折腾 Markdown (2)</h1><h2 id="7-折腾-Markdown-之代码效果"><a href="#7-折腾-Markdown-之代码效果" class="headerlink" title="7 折腾 Markdown 之代码效果"></a>7 折腾 Markdown 之代码效果</h2><p>要将单词或短语表示为代码，请将其包裹在反引号<code>` </code>中。<br>At the command prompt, type <code>nano</code>.<br>另外，带代码样式的 ` 符号应该这样写：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`` ` ``</span><br></pre></td></tr></table></figure></p>
 <span id="more"></span>
-<h3 id="7-1-转义反引号"><a href="#7-1-转义反引号" class="headerlink" title="7.1 转义反引号"></a>7.1 转义反引号</h3><p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号<code>(``)</code>中。<br>另外，带代码样式的 <code>符号应该这样写：
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` `` ```</span><br></pre></td></tr></table></figure>
-示例：</code>Use <code>code</code> in your Markdown file.``</p>
+<h3 id="7-1-转义反引号"><a href="#7-1-转义反引号" class="headerlink" title="7.1 转义反引号"></a>7.1 转义反引号</h3><p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号<code>(``)</code>中。<br>另外，带代码样式的 <code>(``)</code> 符号应该这样写：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` `` ```</span><br></pre></td></tr></table></figure><br>示例：<br><code>Use `code` in your Markdown file.</code></p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``Use `code` in your Markdown file.``</span><br></pre></td></tr></table></figure></p>
 <h3 id="7-2-代码块"><a href="#7-2-代码块" class="headerlink" title="7.2 代码块"></a>7.2 代码块</h3><p>要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。<br>注意编辑的时候代码块区域上下都要空行。</p>
 <p>示例：</p>
@@ -296,7 +294,7 @@
 <p>示例：<br>这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。</p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</span><br></pre></td></tr></table></figure></p>
 <h3 id="9-2-网址和-Email-地址"><a href="#9-2-网址和-Email-地址" class="headerlink" title="9.2 网址和 Email 地址"></a>9.2 网址和 Email 地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
-<p>示例：<br><a href="https://markdown.com.cn">https://markdown.com.cn</a><br><a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;">&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>示例：<br><a href="https://markdown.com.cn">https://markdown.com.cn</a><br><a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <p>语法：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure></p>
 <h3 id="9-3-带格式化的链接"><a href="#9-3-带格式化的链接" class="headerlink" title="9.3 带格式化的链接"></a>9.3 带格式化的链接</h3><p>链接可以嵌套样式, 加粗强调可以在链接语法前后增加星号。<br>将链接表示为代码，可以在方括号中添加反引号。</p>
 <p>示例：<br>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br>This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br>See the section on <a href="#code"><code>code</code></a>.</p>
