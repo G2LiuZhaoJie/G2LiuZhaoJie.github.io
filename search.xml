@@ -1437,9 +1437,13 @@ algorithm）</h1>
     <url>/%E7%94%B5%E8%A7%86%E5%89%A7/Horror%20Stories%20of%20Tang%20Dynasty(1)/</url>
     <content><![CDATA[<h1 id="唐朝诡事录">唐朝诡事录</h1>
 <div class="note info no-icon flat"><h2 id="影视介绍">影视介绍</h2>
-</div>
+</div>  
 
 <p>该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命故事。</p>
+<p>暗夜邪仙从天而降，鬼市地宫露出冰山一角，而风靡长安的诡异红茶究竟是养生之药还是害人之物？长安城里新娘失踪案接连发生，似乎与红茶有着千丝万缕的联系……案件扑朔迷离，人心玄妙难鉴！金吾卫中郎将卢凌风奉命查案，遭遇平生最强对手狄仁杰关门弟子苏无名，双强携手共破长安奇案！八个不同风格的诡异案件，《长安红茶》《石桥图》《众生堂》《黄梅杀》《甘棠驿怪谈》《鼍神》《人面花》《参天楼》，一一为您揭晓大唐夜色笼罩之下的奇闻异录！</p>
+<p>见证唐诗之外，被湮没千年的奇诡想象。千年前的唐朝，万邦来朝，是当之无愧的世界中心。优越的物质生活，多样的文化融合，催生了唐朝人极致的想象力。</p>
+<p>除了李白、杜甫、白居易等一代传奇诗人，用唐诗描绘出的华丽的大唐美卷；市井间的贩夫走卒，更用他们更加不羁的想象力，在唐朝的夜幕中
+勾勒出神魔鬼怪的憧憧魅影：仙魔精妖、奇闻怪谈、幻术道法、异域传说、珍禽异兽、宫廷轶事……</p>
 <p>推荐指数：⭐⭐⭐⭐</p>
 <div class="note info no-icon flat"><h2 id="分集剧情">分集剧情</h2>
 </div>
@@ -1515,6 +1519,61 @@ algorithm）</h1>
       </categories>
       <tags>
         <tag>唐诡系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>双向搜索</title>
+    <url>/algorithm/%E5%8F%8C%E5%90%91%E6%90%9C%E7%B4%A2/</url>
+    <content><![CDATA[<h1 id="双向搜索">双向搜索</h1>
+<h1 id="usaco09nov-lights-g">[USACO09NOV] Lights G</h1>
+<h2 id="题目描述">题目描述</h2>
+<p>给出一张 <span class="math inline">\(n\)</span> 个点 <span
+class="math inline">\(m\)</span> 条边的无向图，每个点的初始状态都为
+<span class="math inline">\(0\)</span>。</p>
+<p>你可以操作任意一个点，操作结束后该点以及所有与该点相邻的点的状态都会改变，由
+<span class="math inline">\(0\)</span> 变成 <span
+class="math inline">\(1\)</span> 或由 <span
+class="math inline">\(1\)</span> 变成 <span
+class="math inline">\(0\)</span>。</p>
+<p>你需要求出最少的操作次数，使得在所有操作完成之后所有 <span
+class="math inline">\(n\)</span> 个点的状态都是 <span
+class="math inline">\(1\)</span>。</p>
+<h2 id="输入格式">输入格式</h2>
+<p>第一行两个整数 <span class="math inline">\(n, m\)</span>。</p>
+<p>之后 <span class="math inline">\(m\)</span> 行，每行两个整数 <span
+class="math inline">\(a, b\)</span>，表示在点 <span
+class="math inline">\(a, b\)</span> 之间有一条边。</p>
+<h2 id="输出格式">输出格式</h2>
+<p>一行一个整数，表示最少需要的操作次数。</p>
+<p>本题保证有解。</p>
+<h2 id="样例-1">样例 #1</h2>
+<h3 id="样例输入-1">样例输入 #1</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5 6 </span><br><span class="line">1 2 </span><br><span class="line">1 3 </span><br><span class="line">4 2 </span><br><span class="line">3 4 </span><br><span class="line">2 5 </span><br><span class="line">5 3</span><br></pre></td></tr></table></figure>
+
+<h3 id="样例输出-1">样例输出 #1</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+
+<h2 id="提示">提示</h2>
+<p>对于 <span class="math inline">\(100\%\)</span> 的数据，<span
+class="math inline">\(1\le n\le35,1\le m\le595, 1\le a,b\le
+n\)</span>。保证没有重边和自环。</p>
+<h2 id="解题">解题</h2>
+<ul>
+<li>考虑贪心，每个开关要么不用要么按一次。</li>
+<li>需要用二进制来进行表示哪个状态使用过，哪个没有使用过。</li>
+<li>最后是匹配是使用二进制 ^ 匹配前 <span
+class="math inline">\(n/2\)</span> 的状态。</li>
+<li>具体实现时，可以把前半段的状态以及达到每种状态的最少按开关次数存储在
+map
+里面，搜索后半段时，每搜出一种方案，就把它与互补的第一段方案合并来更新答案。</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;algorithm&gt;</span><br><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;cstdio&gt;</span><br><span class="line">#include &lt;map&gt;</span><br><span class="line"></span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int n, m, ans = 0x7fffffff; </span><br><span class="line">map&lt;long long, int&gt; f;</span><br><span class="line">long long a[40];</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">	ios::sync_with_stdio(false),cin.tie(0),cout.tie(0);</span><br><span class="line">	cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">	a[0] = 1;</span><br><span class="line">	// 预处理 初始化点1：0001 点2：0010 点3：0100 </span><br><span class="line">	for(int i = 1; i &lt; n; i ++ ) &#123; // 点1对a0 点2对a1 </span><br><span class="line">		a[i] = a[i - 1] * 2;	// 1 10 100 100 1000</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	for(int i = 1; i &lt;= m; i ++ ) &#123;</span><br><span class="line">		int u, v;  cin &gt;&gt; u &gt;&gt; v;</span><br><span class="line">		--u, --v; //与二进制位匹配 为下一步 例如4就左移3位 </span><br><span class="line">		a[u] |= ((long long)1 &lt;&lt; v); // a |= b →a= a|b</span><br><span class="line">		a[v] |= ((long long)1 &lt;&lt; u); //压位记录每个点操作影响到的点</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	for (int i = 0; i &lt; (1 &lt;&lt; (n / 2)); ++i) &#123;  // 对前一半进行搜索 遍历后n\2位置 找按的方法 0是不按 1是按 </span><br><span class="line">		// 00000 00001 00010 00011 &lt; 00100 </span><br><span class="line">	    long long t = 0; // t表示开始每个点都是灭的 </span><br><span class="line">	    int cnt = 0;</span><br><span class="line">	    for (int j = 0; j &lt; n / 2; ++j) &#123; // j=0 1 j是看的位数 这里就是看2位 </span><br><span class="line">	      if ((i &gt;&gt; j) &amp; 1) &#123; // i的j位是1 要按这一个点了 </span><br><span class="line">	        t ^= a[j]; // 相同为0，相异为1 出现奇数个为1 偶数个为0 t就是按了之后会变化的点 1代表亮 0代表灭 </span><br><span class="line">	        ++cnt; // 操作数++ </span><br><span class="line">	      &#125;</span><br><span class="line">	    &#125;</span><br><span class="line">		if (!f.count(t))</span><br><span class="line">	      f[t] = cnt;</span><br><span class="line">	    else</span><br><span class="line">	      f[t] = min(f[t], cnt); // 这个变化需要的最少操作数 </span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	for (int i = 0; i &lt; (1 &lt;&lt; (n - n / 2)); ++i) &#123;  // 对后一半进行搜索 这里的000到111分别表示前三位数 按不按 </span><br><span class="line">		// 00000 00001 00010 00011 00100 00101 00110 00111 &lt; 01000 </span><br><span class="line">	    long long t = 0;</span><br><span class="line">	    int cnt = 0;</span><br><span class="line">	    for (int j = 0; j &lt; (n - n / 2); ++j) &#123; // 这里的j仅仅进行操作动作，也就是按哪些位置 看3位 </span><br><span class="line">	      if ((i &gt;&gt; j) &amp; 1) &#123;</span><br><span class="line">	        t ^= a[n / 2 + j]; // 按前三位会产生的变化 </span><br><span class="line">	        ++cnt;</span><br><span class="line">	      &#125;</span><br><span class="line">	    &#125;</span><br><span class="line">	    // 最终目的是全亮 11111 </span><br><span class="line">	    if (f.count((((long long)1 &lt;&lt; n) - 1) ^ t))// 后半段与前半段匹配</span><br><span class="line">	      ans = min(ans, cnt + f[(((long long)1 &lt;&lt; n) - 1) ^ t]);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	cout &lt;&lt; ans;</span><br><span class="line">	</span><br><span class="line">	return 0;</span><br><span class="line">&#125; </span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>搜索</tag>
       </tags>
   </entry>
 </search>
